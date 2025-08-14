@@ -46,17 +46,14 @@ tar clang bsdmainutils ncdu unzip libleveldb-dev ca-certificates -y
 ### **2️⃣ Install NVM & Node.js (Required for Ceremony CLI)**
 
 ```bash
-# Download and install NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-
-# Install Node.js v18
+```
+```bash
 nvm install 18
 nvm use 18
-
-# Set Node.js v18 as default
 nvm alias default 18
-
-# Reload shell configuration
+```
+```bash
 source ~/.bashrc
 ```
 <img width="1213" height="265" alt="Screenshot 2025-08-14 231457" src="https://github.com/user-attachments/assets/ef7054df-c0cd-4408-a5f9-0f352d245972" />
